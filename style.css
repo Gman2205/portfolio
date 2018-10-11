@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
+
+body {
+	height: 100vh;
+	font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+}
+.container-m {
+	position: relative;
+	top: 10rem;
+}
+.title-black {
+	color: #2c2424;
+	font-weight: 100;
+}
+.title-red {
+	color: #ae4444;
+	font-weight: 100;
+}
+.title-white {
+	color: #ffffff;
+	font-weight: 100;
+}
+.title2 {
+	color: white;
+	font-weight: 100;
+}
+.text-red {
+	color: #ae4444;
+	font-weight: 100;
+}
+.text-white {
+	color: #ffffff;
+	font-weight: 100;
+}
+/* Nav Section */
+#nav-ul {
+	position: fixed;
+	right: 0;
+	margin-right: 10%;
+}
+.nav-dark {
+	color: white;
+	font-weight: 700;
+	transition: color 0.3s;
+}
+
+.nav-dark:hover {
+	color: #ae4444;
+}
+
+/* Home Section */
+#home {
+	background: #2c2424;
+	height: 58rem;
+}
+.home-container {
+	position: relative;
+	top: 10rem;
+}
+#resume-btn {
+	position: relative;
+	left: 43%;
+}
+
+/* About Section */
+#about {
+	background: #ae4444;
+	height: 58rem;
+}
+.img-wrapper > img {
+	height: 150px;
+	width: 150px;
+	border-radius: 100px;
+}
+#my-skills {
+	margin-top: 6rem;
+}
+.sk-list > p {
+	color: #ffffff;
+}
+
+/* Projects Section */
+#projects {
+	background: #2c2424;
+	height: 58rem;
+}
+
+#contact {
+	height: 20rem;
+	background: #ae4444;
+	padding-top: 5rem;
+}
+#arrow-right {
+	height: 30px;
+	width: 30px;
+}
+#github-icon {
+	height: 15px;
+	width: 15px;
+}
+#linkedin-icon {
+	height: 15px;
+	width: 15px;
+}
+#find-me li {
+	margin: 0 10px;
+	display: inline;
+	list-style-type: none;
+}
+.btn-footer {
+	text-decoration: none;
+	color: black;
+}
+.btn-footer:hover {
+	text-decoration: none;
+	color: black;
+}
+/* Contact Section */
