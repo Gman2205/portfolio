@@ -32,12 +32,8 @@ body {
 	color: #ffffff;
 	font-weight: 100;
 }
+
 /* Nav Section */
-#nav-ul {
-	position: fixed;
-	right: 0;
-	margin-right: 10%;
-}
 .nav-dark {
 	color: white;
 	font-weight: 700;
@@ -75,8 +71,9 @@ body {
 #my-skills {
 	margin-top: 6rem;
 }
-.sk-list > p {
+.sk-list > ul > li {
 	color: #ffffff;
+	list-style-type: none;
 }
 
 /* Projects Section */
@@ -84,7 +81,7 @@ body {
 	background: #2c2424;
 	height: 58rem;
 }
-
+/* Contact Section */
 #contact {
 	height: 20rem;
 	background: #ae4444;
@@ -115,4 +112,35 @@ body {
 	text-decoration: none;
 	color: black;
 }
-/* Contact Section */
+
+/* Media Queries */
+@media (max-width: 340px) {
+	.is-visable {
+		display: none;
+	}
+}
+@media (max-width: 520px) {
+	#resume-btn {
+		left: 30%;
+	}
+}
+@media (max-width: 720px) {
+	#my-skills {
+		margin-top: 1rem;
+	}
+}
+@media (min-width: 720px) {
+	#resume-btn {
+		left: 40%;
+	}
+}
+@media (min-width: 1200px) {
+	#resume-btn {
+		left: 45.5%;
+	}
+}
+@media (min-width: 2000px) {
+	#resume-btn {
+		left: 46%;
+	}
+}
